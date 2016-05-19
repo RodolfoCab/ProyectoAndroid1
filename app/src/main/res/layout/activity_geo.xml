@@ -15,7 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="24dp"
-        android:text="¿La peninsula de Yucatan se encuentra al norte de Mexico?"/>
+        android:text="@string/texto_pregunta_1"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -25,12 +25,16 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Cierto"/>
+            android:text="@string/texto_boton_correcto"
+            android:id="@+id/boton_cierto"
+            android:onClick="True"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="falso"/>
+            android:text="@string/texto_boton_incorrecto"
+            android:id="@+id/boton_falso"
+            android:onClick="False"/>
 
     </LinearLayout>
 
